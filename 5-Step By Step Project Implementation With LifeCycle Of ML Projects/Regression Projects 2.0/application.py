@@ -1,8 +1,5 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, render_template
 import pickle
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 # Flask App Initialization
 application = Flask(__name__)
